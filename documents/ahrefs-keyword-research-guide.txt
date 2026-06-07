@@ -1,0 +1,196 @@
+How to Do Keyword Research for SEO (Start to Finish)
+Source: Ahrefs SEO Guide, Chapter 03 — Keyword Research
+By Tim Soulo (Chief Marketing Officer at Ahrefs)
+Contributors: Joshua Hardwick, Ryan Law
+
+================================================================================
+
+90% of pages get no organic traffic from Google. All of that hard work, all of that effort... for zero visitors.
+
+But there's a way to avoid this problem, to almost guarantee that relevant people will find your content: keyword research.
+
+Keyword research is the process of discovering valuable search queries that your target customers type into search engines like Google to look for products, services, and information.
+
+Keywords are the foundation of SEO. If you publish a page on a topic that no one is searching for, that article won't receive any traffic from Google — no matter how hard you try. Many website owners make that mistake, and it's part of the reason why 90.63% of pages on the internet get no traffic from Google.
+
+Keyword research helps you ensure that there is search demand for whatever you want to write about. If your page ends up ranking well in Google for its target keyword, you'll be enjoying a consistent stream of highly targeted visitors.
+
+Keyword research is not rocket science — you're about to learn most of it in about 20 minutes. But there are quite a few important caveats and misconceptions you need to be aware of in order to make better SEO decisions.
+
+================================================================================
+PART 1: GETTING STARTED WITH KEYWORD RESEARCH
+================================================================================
+
+Keyword research starts from putting yourself in the shoes of your customers. What words and phrases might they use to find solutions to their problems? Plug these into a keyword research tool and you'll find thousands more relevant keyword ideas on top of what you just brainstormed.
+
+You need two things to do it well:
+1. Good knowledge of your industry
+2. An understanding of how keyword research tools work
+
+TRY OUT FREE KEYWORD TOOLS
+
+Every keyword research tool asks for a "seed keyword," which it then uses to generate a huge list of keyword ideas.
+
+If you already have a product or business, coming up with seed keywords is easy — just think about what people type into Google to find what you offer. For example, if you sell coffee and coffee-making equipment, your seed keywords might be: coffee, cappuccino, french press, nespresso, etc.
+
+Free tools available for brainstorming:
+
+- Ahrefs Free Keyword Generator: Enter a seed keyword and get 20 related keywords and 20 related questions (40 keyword ideas), along with ranking difficulty and estimated monthly searches.
+- ChatGPT: Useful for brainstorming large volumes of ideas, but won't provide realistic SEO metrics like keyword difficulty or monthly searches.
+- Google Keyword Planner: Designed for running Google ads; can help with keyword ideas but only shows SEO metrics if you're running paid campaigns.
+- Google Trends: Good for finding new and exciting broad topics, but not detailed enough for specific keyword ideas.
+- Answer the Public: Uses Google's autocomplete data to show related keywords, but limited to 3 searches per day on the free plan.
+
+For serious keyword research, a paid tool like Ahrefs Keywords Explorer can generate millions of keyword ideas from a single seed keyword.
+
+SEE WHAT KEYWORDS YOUR WEBSITE ALREADY RANKS FOR
+
+If you already have a website, find the keywords you already rank for — great for brainstorming new ideas or improving pages for better rankings.
+
+- Google Search Console shows search queries your website is currently ranking for and getting clicks from, but doesn't show SEO metrics like keyword difficulty or search volume.
+- Ahrefs Free shows all keywords your website ranks for (not just the top 1,000 like Search Console), plus Keyword Difficulty scores and monthly search volumes.
+
+SEE WHAT KEYWORDS YOUR COMPETITORS RANK FOR
+
+Search Google for one of your seed keywords and see who ranks on the front page. Once you find a competitor website similar to yours, plug it into a competitive intelligence tool to check which pages bring it the most traffic and what keywords those pages are targeting.
+
+Repeat this process for as many competitors as you can. Tools like Ahrefs' "Competing Domains" report can help you discover more competitors based on the common keywords they rank for in Google.
+
+If you've already covered most of your competitors' keywords, use a Content Gap report to find keywords that one or more competitors rank for but you don't.
+
+STUDY YOUR NICHE
+
+Go to the places where your target audience hangs out — industry forums, groups, and Q&A sites — and study their conversations. For example, a popular Reddit thread about a specific coffee brewing method might reveal a niche keyword worth targeting. Your existing customers can also be a great source of keyword ideas: pay attention to the language they use and the common questions they ask.
+
+================================================================================
+PART 2: TYPES OF KEYWORDS
+================================================================================
+
+SEED KEYWORDS
+The starting words or phrases you enter into a keyword research tool to generate further ideas.
+
+MATCHING TERMS
+Keyword ideas that contain the words in your seed keywords. Two modes:
+
+- Terms match: Shows keyword ideas that contain all words of your seed keyword in any order. Example seed "coffee machine" returns "coffee vending machine" or "machine gun kelly coffee shop."
+- Phrase match: Returns keyword ideas that contain your seed keyword in the exact order entered. Example: "best coffee machine" or "coffee machine with grinder."
+
+RELATED TERMS
+Keyword ideas related to your seed keywords but that don't necessarily contain your seed keywords. Two modes:
+
+- Also rank for: Search queries that the top-ranking pages for your seed keyword also rank for.
+- Also talk about: Words and phrases frequently mentioned on the top-ranking pages for your seed keywords.
+
+KEYWORD CLUSTERS
+Rather than creating a separate page for every keyword, you can group related keywords together using a process called keyword clustering. If the top-ranking pages for two different keywords are nearly identical, Google treats one as a subtopic of the other — meaning you can rank for both with a single page.
+
+The "Parent Topic" metric in Ahrefs groups related keywords together almost instantly. There are also other clustering methods, such as term clustering, where you group keywords by common words or phrases.
+
+KEYWORD INTENTS
+Keywords have different types of intent:
+
+- Commercial / transactional intent: Searched by people ready to buy. Examples: "best instant coffee," "cuisinart coffee maker," "coffee table with storage."
+- Informational intent: Searched by people looking to learn. Examples: "how much caffeine in coffee," "coffee cake recipe," "is coffee good for you."
+- Navigational intent: Searched by people looking for a specific website or location. Examples: "coffee near me," "stumptown coffee," "drive thru coffee."
+- Branded vs. unbranded: e.g., "starbucks coffee" versus "black coffee."
+
+Understanding intent helps you determine what type of content to create. Informational keywords benefit from educational blog content; commercial keywords may need a product landing page.
+
+You can check keyword intent by looking at the search results, or use a tool like Keywords Explorer to see intents for hundreds of keywords at once and filter by intent type.
+
+================================================================================
+PART 3: KEYWORD SEO METRICS EXPLAINED
+================================================================================
+
+SEARCH VOLUME
+Search volume tells you the average number of times a keyword gets searched per month.
+
+Important things to understand:
+- It counts searches, not unique searchers. Someone searching the same keyword multiple times a month contributes multiple times to volume.
+- Ranking #1 will rarely send you more than 30% of a keyword's monthly search volume.
+- It's an annual average, which can mask seasonal spikes or declines.
+- It's country-specific, though many tools also offer global search volume.
+
+Search volume filters have two main uses:
+- Filtering out very high-volume keywords (likely too competitive for new sites).
+- Filtering specifically for low-volume "long-tail" keywords (uncompetitive, highly specific, often with high commercial value).
+
+Don't dismiss zero-volume keywords. They may only bring a few visitors per month individually, but publishing a hundred articles targeting them can add up to thousands of highly targeted annual visitors. It's a common mistake to ignore low search volume keywords.
+
+Note: Search volumes may vary slightly between tools, as each calculates and updates this metric differently.
+
+TRAFFIC POTENTIAL
+A single keyword's search volume doesn't tell the full story of how much traffic a page can receive. Top-ranking pages don't just rank for one keyword — they often rank for hundreds or thousands of related keywords simultaneously.
+
+Traffic Potential is a metric that shows how much total search traffic the top-ranking page for a given keyword actually receives. This is a more reliable indicator of the true traffic opportunity than search volume alone.
+
+Both search volume and Traffic Potential are country-specific. For worldwide traffic estimates, you'd need to check with "All countries" mode.
+
+KEYWORD DIFFICULTY (KD)
+Keyword Difficulty is a score that estimates how hard it will be to rank in the top 10 search results for a given keyword. Ahrefs bases its KD score on the number of unique websites (referring domains) linking to the top 10 ranking pages.
+
+KD scale:
+- Easy: Requires fewer linking websites to rank in the top 10
+- Medium
+- Hard
+- Super Hard: Requires many linking websites to rank in the top 10
+
+Important nuances:
+- KD estimates what you need to reach the top 10, not #1.
+- Avoid only targeting low-KD keywords. High-KD keywords are worth pursuing sooner rather than later, as building backlinks takes time. High-KD topics also signal "link-worthy" subjects where great content is likely to earn links.
+- KD should never be your only filter. Always manually assess keywords before targeting them — no single score fully captures the complexity of Google's ranking algorithm.
+
+COST PER CLICK (CPC)
+CPC shows how much advertisers pay for a click on an ad shown for a given keyword. It's primarily a metric for advertisers, but it can signal a keyword's commercial value.
+
+Example: "project management software" has a high CPC (~$30), indicating strong buying intent. "Project management methodologies" has a much lower CPC (~$6), indicating informational intent.
+
+CPC is much more volatile than search volume and can change minute to minute. Values shown in SEO tools are snapshots, not real-time data.
+
+GROWTH
+Because search volume is an annual average, it can mask trends. A keyword might have low average volume but be growing rapidly, or have high average volume but be declining.
+
+- Use the Growth metric in Keywords Explorer to find keywords that are getting more popular (trending up) or less popular (declining).
+- Google Trends is also a free tool for analyzing trending searches.
+
+Example: "Notebook LM" had a twelve-month average of 73,000 searches, but this average included many months with zero volume and a couple of months with over 400,000 searches — indicating a fast-growing keyword where the average significantly understates future potential.
+
+BUSINESS POTENTIAL
+Business potential is a scoring system (0 to 3) that indicates how easy it is to naturally reference your product or service when creating content around a given keyword.
+
+Score 3 — Your product is an irreplaceable solution to the problem.
+  Example: "how to see competitor's backlinks" (hard to do without a tool like Ahrefs)
+
+Score 2 — Your product helps quite a bit, but isn't essential.
+  Example: "SEO tips" (some tips require a tool, others don't)
+
+Score 1 — Your product can only be mentioned briefly.
+  Example: "marketing ideas" (SEO is just one of many marketing ideas)
+
+Score 0 — No way to mention your product.
+  Example: "social media marketing" (not something Ahrefs helps with)
+
+As a general rule, prioritize topics that score 2 or 3 on Business Potential — these are most likely to bring potential customers to your website.
+
+================================================================================
+PART 4: HOW TO PRIORITIZE KEYWORDS
+================================================================================
+
+Which keywords you should start working on first depends on your unique situation:
+
+- Are you working on a brand-new website or an established business?
+- Are you the only marketer, or do you manage a large team?
+- Are you responsible for conversions or generating new leads?
+- How fast do you need to show results?
+
+Keyword research is an act of balancing your unique circumstances with the metrics covered above: traffic potential, keyword difficulty, business potential, and search intent.
+
+In some cases, your goal is to get as much traffic as possible as fast as possible — focus on high-volume, low-difficulty keywords. In other cases, you need to focus on leads or conversions — business potential becomes the most important metric.
+
+You should have short-, medium-, and long-term ranking goals. Focus only on short-term goals and you'll never rank for the most lucrative keywords. Focus only on long-term goals and it'll take years to see any traffic.
+
+Keyword research is not the process of finding "easy to rank for" keywords. It's the process of finding the keywords that make the most sense to your business.
+
+================================================================================
+END OF ARTICLE
+================================================================================

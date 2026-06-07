@@ -1,0 +1,97 @@
+Get Started with Search: A Developer's Guide
+Source: Google Search Central Documentation
+Last updated: 2025-12-10
+
+================================================================================
+
+Making your content search-friendly matters because it's how you get more relevant users viewing your content. This is called search engine optimization (SEO), which can result in more interested users coming to your site. If Google Search has trouble understanding your page, you're possibly missing out on an important source of traffic.
+
+This guide covers what developers can do to make sure that their sites work well with Google Search. In addition to the items in this guide, make sure that your site is secure, fast, accessible to all, and works on all devices.
+
+================================================================================
+FIND OUT HOW GOOGLE SEES YOUR SITE
+================================================================================
+
+To get started, test your site in the URL Inspection Tool or Rich Results Test to see how Google sees your site. Googlebot is Google's web crawling bot that discovers new and updated pages for the Google index.
+
+You may be surprised to find that Google doesn't always see everything that you see in the browser. For example, Google may not recognize images on a page if it uses a JavaScript feature that isn't supported by Google.
+
+================================================================================
+CHECK YOUR LINKS
+================================================================================
+
+Googlebot navigates from URL to URL by fetching and parsing links, sitemaps, and redirects. Googlebot treats every URL as if it's the first and only URL it has seen from your site. To make sure that Googlebot can find all the URLs on your site:
+
+- Use <a> elements that Google can crawl. Ensure that all pages on the site can be reached by a link from another findable page. Make sure the referring link includes either text or, for images, an alt attribute that is relevant to the target page.
+- Build and submit a sitemap to help Googlebot more intelligently crawl your site. A sitemap is a file where you provide information about the pages, videos, and other files on your site, and the relationships between them.
+- For JavaScript apps that have only one HTML page, make sure that each screen or piece of individual content has a URL.
+
+================================================================================
+CHECK HOW YOU'RE USING JAVASCRIPT
+================================================================================
+
+While Google does run JavaScript, there are some differences and limitations that you need to account for when designing your pages and applications to accommodate how crawlers access and render your content.
+
+Key considerations:
+- Learn the basics of JavaScript SEO and how to fix Search-related JavaScript problems.
+- Understand how Google handles JavaScript when crawling, rendering, and indexing.
+
+================================================================================
+KEEP GOOGLE UPDATED WHEN CONTENT CHANGES
+================================================================================
+
+To make sure that Google finds your new or updated pages quickly:
+
+- Submit sitemaps.
+- Ask Google to recrawl your URLs.
+- If you're still having trouble getting your page indexed, check your server logs for errors.
+
+================================================================================
+DON'T FORGET ABOUT THE WORDS ON THE PAGE
+================================================================================
+
+Googlebot can only find content that is textually visible. For example, text in videos is invisible to Googlebot. To make sure that Google Search understands what your page is about:
+
+- Make sure that your visual content is expressed in text form. For example, a product category page that contains a list of images with no textual context is suboptimal — it should include some textual explanation for each image.
+- Make sure that every page has a descriptive title and meta description. Unique titles and meta descriptions help Google show how your pages are relevant to users, which in turn can increase your search traffic.
+- Use semantic HTML. Google indexes HTML, PDF content, images, and videos, but it does not index content that requires plugins (for example, Java or Silverlight) or content rendered in a canvas element. Use semantic HTML markup for your content whenever possible instead of plugins.
+- Make sure your text content is accessible in the DOM. Content added via the CSS content property is not part of the DOM and is ignored by Google Search. It's fine to use the content property for decorative content, but Google Search may not index it.
+
+================================================================================
+TELL GOOGLE ABOUT OTHER VERSIONS OF YOUR CONTENT
+================================================================================
+
+Google doesn't automatically know that there are multiple versions of your site or content — for example, a mobile and desktop version, or international versions of your site. To make sure that Google serves the right version to users, you can:
+
+- Consolidate duplicate URLs.
+- Tell Google about localized versions of your site.
+- Make your AMP pages discoverable.
+
+================================================================================
+CONTROL WHAT CONTENT GOOGLE SEES
+================================================================================
+
+There are several ways to control Googlebot's access to your content:
+
+- To block Google from finding your page: restrict access to logged-in users (e.g., use a login page or password-protect the page).
+- To block Googlebot from crawling your page: create a robots.txt file. Note: robots.txt is not a mechanism for keeping a web page out of Google — to keep a page out of Google, use noindex robots rules or password-protect the page.
+- To block Google from indexing your page but still allow crawling: add a noindex tag.
+
+Combining multiple crawling and indexing rules might cause some rules to counteract other rules. Read Google's documentation on combining crawling with indexing/serving rules to configure these properly.
+
+If your content isn't showing up in Google Search and you want it to, follow these steps:
+1. Check if Googlebot can access the page with the URL Inspection Tool.
+2. Test your robots.txt file to see if you're unintentionally blocking Googlebot from crawling your site.
+3. Check your HTML for noindex rules in meta tags.
+
+================================================================================
+ENABLE RICH RESULTS FOR YOUR SITE
+================================================================================
+
+A rich result can include styling, images, or other interactive features that help your site stand out more in Search results. You can help Google understand your page better and show rich results by providing explicit clues about the meaning of a page with structured data.
+
+Structured data markup enables features such as recipe carousels, review stars, product details, and more. Explore Google's gallery of available rich result features to see which types apply to your content.
+
+================================================================================
+END OF DOCUMENT
+================================================================================

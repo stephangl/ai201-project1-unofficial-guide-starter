@@ -1,0 +1,224 @@
+Search Engine Optimization (SEO) Starter Guide
+Source: Google Search Central
+Last updated: 2025-12-10
+
+================================================================================
+
+When you built your website, you likely created it with your users in mind, trying to make it easy for them to find and explore your content. One of those users is a search engine, which helps people discover your content. SEO — short for search engine optimization — is about helping search engines understand your content, and helping users find your site and make a decision about whether they should visit your site through a search engine.
+
+The Search Essentials outline the most important elements of what makes your website eligible to appear on Google Search. While there's no guarantee that any particular site will be added to Google's index, sites that follow the Search Essentials are more likely to show up in Google's search results. SEO is about taking the next step and working on improving your site's presence in Search. This guide will walk you through some of the most common and effective improvements you can do on your site.
+
+There are no secrets here that'll automatically rank your site first in Google. In fact, some of the suggestions might not even apply to your business, but following the best practices will hopefully make it easier for search engines (not just Google) to crawl, index, and understand your content.
+
+================================================================================
+HOW DOES GOOGLE SEARCH WORK?
+================================================================================
+
+Google is a fully automated search engine that uses programs called crawlers to explore the web constantly, looking for pages to add to our index. You usually don't need to do anything except publish your site on the web. In fact, the vast majority of sites listed in our results are found and added automatically as we crawl the web.
+
+HOW LONG UNTIL I SEE IMPACT IN SEARCH RESULTS?
+
+Every change you make will take some time to be reflected on Google's end. Some changes might take effect in a few hours, others could take several months. In general, you likely want to wait a few weeks to assess whether your work had beneficial effects in Google Search results. Keep in mind that not all changes you make to your website will result in noticeable impact in search results; if you're not satisfied with your results and your business strategies allow it, try iterating with the changes and see if they make a difference.
+
+================================================================================
+HELP GOOGLE FIND YOUR CONTENT
+================================================================================
+
+Before you actually do anything mentioned in this section, check if Google has already found your content (maybe you don't need to do anything!). Try searching on Google for your site with the site: search operator. If you see results pointing to your site, you're in the index. If you don't see your site, check the technical requirements to make sure there's nothing technically preventing your site from showing in Google Search.
+
+Google primarily finds pages through links from other pages it already crawled. In many cases, these are other websites that are linking to your pages. Other sites linking to you is something that happens naturally over time, and you can also encourage people to discover your content by promoting your site.
+
+If you're open to a little technical challenge, you could also submit a sitemap — a file that contains all the URLs on your site that you care about. Some content management systems (CMS) may even do this automatically for you. However this isn't required, and you should first focus on making sure people know about your site.
+
+CHECK IF GOOGLE CAN SEE YOUR PAGE THE SAME WAY A USER DOES
+
+When Google crawls a page, it should ideally see the page the same way an average user does. For this, Google needs to be able to access the same resources as the user's browser. If your site is hiding important components (like CSS and JavaScript), Google might not be able to understand your pages, which means they might not show up in search results or rank well.
+
+If your pages have different information depending on the user's physical location, make sure you're satisfied with the information that Google sees from its crawler's location, which is generally the US.
+
+To check how Google sees your page, use the URL Inspection Tool in Search Console.
+
+DON'T WANT A PAGE IN GOOGLE'S SEARCH RESULTS?
+
+Google supports various ways to opt out of crawling and indexing your URLs. If you need to block some files, directories, or even your whole site from Google Search, check out Google's guide about ways to prevent content from appearing in search results.
+
+================================================================================
+ORGANIZE YOUR SITE
+================================================================================
+
+When you're setting up or redoing your site, it can be good to organize it in a logical way because it helps search engines and users understand how your pages relate to the rest of your site.
+
+USE DESCRIPTIVE URLs
+
+Parts of the URL can be displayed in search results as breadcrumbs, so users can also use the URLs to understand whether a result will be useful for them. Try to include words in the URL that may be useful for users; for example:
+
+  Good:  https://www.example.com/pets/cats.html
+  Poor:  https://www.example.com/2/6772756D707920636174
+
+GROUP TOPICALLY SIMILAR PAGES IN DIRECTORIES
+
+If you have more than a few thousand URLs on your site, how you organize your content may affect how Google crawls and indexes your site. Using directories (or folders) to group similar topics can help Google learn how often the URLs in individual directories change.
+
+For example:
+  https://www.example.com/policies/return-policy.html  (changes rarely)
+  https://www.example.com/promotions/new-promos.html   (changes often)
+
+Google can learn this and crawl the different directories at different frequencies.
+
+REDUCE DUPLICATE CONTENT
+
+Some websites show the same content under different URLs — this is called duplicate content. Search engines choose a single URL (the canonical URL) to show users per piece of content.
+
+Having duplicate content is not a violation of spam policies, but it can be a bad user experience and search engines might waste crawling resources. Try to ensure that each piece of content on your site is only accessible through one individual URL. If you have multiple pages with the same information, set up a redirect from non-preferred URLs to a preferred one. If you can't redirect, use the rel="canonical" link element instead.
+
+================================================================================
+MAKE YOUR SITE INTERESTING AND USEFUL
+================================================================================
+
+Creating content that people find compelling and useful will likely influence your website's presence in search results more than any of the other suggestions in this guide. Useful content generally shares some common attributes:
+
+- Easy-to-read and well organized: Write content naturally, free of spelling and grammatical mistakes. Break up long content into paragraphs and sections with clear headings.
+- Unique: Don't copy others' content in part or in its entirety — create the content yourself based on what you know about the topic.
+- Up-to-date: Check in on previously published content and update it as needed, or delete it if it's no longer relevant.
+- Helpful, reliable, and people-first: Write content your readers will find helpful and reliable. Providing expert or experienced sources can help people understand your articles' expertise.
+
+EXPECT YOUR READERS' SEARCH TERMS
+
+Think about the words that a user might search for to find a piece of your content. Users who know a lot about the topic might use different keywords than someone who is new to it. For example, some users might search for "charcuterie", while others might search for "cheese board". Anticipating these differences and writing with your readers in mind can produce positive effects on how your site performs in search results.
+
+Don't worry if you don't anticipate every variation — Google's language matching systems are sophisticated and can understand how your page relates to many queries, even if you don't explicitly use the exact terms.
+
+AVOID DISTRACTING ADVERTISEMENTS
+
+While ads are part of the internet, don't let them become overly distracting or prevent users from reading your content. Avoid interstitial pages (pages displayed before or after the content you're expecting) that make it difficult to use the website.
+
+================================================================================
+LINK TO RELEVANT RESOURCES
+================================================================================
+
+Links are a great way to connect users and search engines to other parts of your site, or relevant pages on other sites. The vast majority of new pages Google finds every day are through links, making links a crucial resource for helping your pages be discovered.
+
+WRITE GOOD LINK TEXT
+
+Link text (also known as anchor text) is the visible text part of a link. This text tells users and Google something about the page you're linking to. With appropriate anchor text, users and search engines can easily understand what your linked pages contain before they visit.
+
+LINK WHEN YOU NEED TO
+
+Links can provide more context on a topic for users and search engines. When linking to pages outside of your control, make sure you trust the resource. If you can't trust the content but still want to link to it, add a nofollow or similar annotation to avoid search engines associating your site with the site you're linking to.
+
+If you're accepting user-generated content on your site (such as forum posts or comments), make sure every user-posted link has a nofollow annotation automatically added by your CMS. This also helps discourage spammers from abusing your website.
+
+================================================================================
+INFLUENCE HOW YOUR SITE LOOKS IN GOOGLE SEARCH
+================================================================================
+
+INFLUENCE YOUR TITLE LINKS
+
+The title link is the headline part of the search result and it can help people decide which result to click. Google generates title links from a few sources, including the words inside the <title> element and other headings on the page.
+
+A good title is:
+- Unique to the page
+- Clear and concise
+- Accurately descriptive of the page's contents
+
+Your title could include the name of your website or business, other important information like physical location, and what the particular page has to offer users.
+
+CONTROL YOUR SNIPPETS
+
+Below the title link, a search result typically includes a description of the target page — this is called a snippet. The snippet is sourced from the actual content of the page, so you have complete control over the words that can be used to generate it. Occasionally the snippet may come from the meta description tag.
+
+A good meta description is:
+- Short (one or two sentences)
+- Unique to the page
+- Inclusive of the most relevant points of the page
+
+================================================================================
+ADD IMAGES TO YOUR SITE AND OPTIMIZE THEM
+================================================================================
+
+Many people search visually, and images can be how people find your website for the first time.
+
+ADD HIGH-QUALITY IMAGES NEAR RELEVANT TEXT
+
+Use sharp, clear images and place them near text that's relevant to the image. Text near images can help Google better understand what the image is about and its context on your page.
+
+ADD DESCRIPTIVE ALT TEXT TO IMAGES
+
+Alt text is a short, descriptive piece of text that explains the relationship between the image and your content. It helps search engines understand what your image is about. Add this using the alt attribute of the img element, or through your CMS when uploading an image.
+
+OPTIMIZE YOUR VIDEOS
+
+If your website includes pages primarily about individual videos, people may discover your site through video results in Google Search. Best practices include:
+
+- Create high-quality video content and embed the video on a standalone page near relevant text.
+- Write descriptive text in the titles and description fields of a video.
+
+================================================================================
+PROMOTE YOUR WEBSITE
+================================================================================
+
+Effectively promoting your new content will lead to faster discovery by those interested in the same subject, and by search engines. You can do this through:
+
+- Social media promotion
+- Community engagement
+- Advertisement (offline and online)
+- Word of mouth
+
+One of the most effective and lasting methods is word of mouth: people familiar with your site tell their friends, who in turn visit. Offline promotion can also be rewarding — if you have a business site, make sure its URL is listed on your business cards, letterhead, posters, and other materials.
+
+Be careful not to overdo promotion: people may get fatigued, and search engines may perceive some practices as manipulation of search results.
+
+================================================================================
+THINGS WE BELIEVE YOU SHOULDN'T FOCUS ON
+================================================================================
+
+As SEO has evolved, so have the ideas, practices, and misconceptions related to it. Here are common topics that are often overstated:
+
+META KEYWORDS
+Google Search doesn't use the keywords meta tag.
+
+KEYWORD STUFFING
+Excessively repeating the same words over and over is tiring for users, and keyword stuffing is against Google's spam policies.
+
+KEYWORDS IN THE DOMAIN NAME OR URL PATH
+From a ranking perspective, keywords in the domain name or URL path alone have hardly any effect beyond appearing in breadcrumbs. Do what's best for your business when picking a domain name.
+
+TLD (TOP-LEVEL DOMAIN)
+The TLD (e.g., .com or .guru) only matters if you're targeting a specific country's users, and even then it's usually a low-impact signal. Google Search doesn't care which TLD you're using otherwise.
+
+MINIMUM OR MAXIMUM CONTENT LENGTH
+The length of content alone doesn't matter for ranking purposes. There's no magical word count target, minimum or maximum.
+
+SUBDOMAINS VERSUS SUBDIRECTORIES
+Do whatever makes sense for your business. It might be easier to manage a site segmented by subdirectories, but other times it might make sense to partition topics into subdomains.
+
+PAGERANK
+While PageRank uses links and is one of Google's fundamental algorithms, there's much more to Google Search than just links. PageRank is just one of many ranking signals.
+
+DUPLICATE CONTENT "PENALTY"
+If you have content accessible under multiple URLs, it's fine — it's inefficient, but it won't cause a manual action. Copying others' content, however, is a different story.
+
+NUMBER AND ORDER OF HEADINGS
+Using headings in semantic order is great for screen readers, but from Google Search's perspective, it doesn't matter if you use them out of order. There's also no ideal number of headings a given page should have.
+
+E-E-A-T AS A RANKING FACTOR
+E-E-A-T is not a ranking factor.
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+- Get started with Search Console: Set up a Search Console account to monitor and optimize how your website performs on Google Search.
+- Maintain your website's SEO over time: Learn more about managing your site's presence in the long term, including more in-depth SEO tasks like preparing for a site move or managing a multi-lingual site.
+- Enhance how your site looks in Google Search results: Valid structured data on your pages makes them eligible for special features in Google Search results, including review stars, carousels, and more.
+
+STAY INFORMED AND ASK QUESTIONS
+
+- Google Search Central Blog: Get the latest information about updates to Google Search and new Search Console features.
+- Google Search Central on LinkedIn and X (Twitter): Follow for updates on Google Search.
+- Google Search Central Help Forum: Post questions about your site's SEO issues and find tips from experienced contributors.
+- Google Search Central YouTube Channel: Watch helpful videos created for website owners.
+
+================================================================================
+END OF DOCUMENT
+================================================================================
