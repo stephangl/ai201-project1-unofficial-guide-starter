@@ -110,6 +110,9 @@ all-MiniLM-L6-v2
 
 2. **Semantic overlap between documents:** All 10 sources cover overlapping terms (e.g., "structured data", "schema markup"). The top-5 retrieved chunks may all surface chunks that say roughly the same thing from different articles, crowding out more specific or unique information and making answers repetitive rather than comprehensive.
 
+**Observed during testing:**
+- Query "What are some common schema markups?" retrieved the preamble of the webflow schema types list (chunk ending with *"Here are the most commonly used schema types..."*) but not the actual list items, which sit in the next chunk. The model answered correctly from what it received (CreativeWork, Event, Product as category examples) but missed the more useful specific types (FAQPage, HowTo, Article). Root cause: chunk boundary split the intro sentence from its list body. Potential fix: increase k to 7 to pull in the follow-on chunk, or increase max_chars to keep list intros and their bodies together.
+
 ---
 
 ## Architecture
