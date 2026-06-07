@@ -50,6 +50,17 @@ I chose the topic SEO, SEO itself cannot be answered in one article but the comb
 **Reasoning:**
 Since documents are pre-saved as plain `.txt` files, ingestion is a direct file read — no scraping needed. Character-based chunking at 500 chars with 50-char overlap is implemented in pure Python (no LangChain dependency). The 500-char size fits 2–4 paragraphs typical of these blog articles; the 50-char overlap prevents sentences from being cut at boundaries without duplicating too much content.
 
+Mileston 3: 628 chunks across 10 documents.
+
+---
+
+**Update after testing:**
+Switched to paragraph-aware splitting. Testing showed that 3 out of 5 sampled character-based chunks started mid-sentence or mid-word, meaning they could not stand alone — a retriever hitting those chunks would return broken context to the model.
+
+The revised approach splits on `\n\n` first to get natural paragraph units, then groups consecutive paragraphs until the total reaches ~500 chars. Overlap is handled by carrying the last paragraph of each group into the start of the next. This guarantees every chunk starts and ends at a paragraph boundary.
+
+One additional fix: chunks under 100 chars (typically section headers with no body text) are filtered out before storage, since they contain no answerable content and would waste a retrieval slot.
+
 ---
 
 ## Retrieval Approach
